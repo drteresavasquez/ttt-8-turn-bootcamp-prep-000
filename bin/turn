@@ -7,5 +7,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
-input = gets.chomp.to_i
+input = gets.chomp
 input_to_index(input)
