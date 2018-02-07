@@ -13,3 +13,11 @@ end
 def input_to_index(num)
   num.to_i - 1
 end
+
+def position_taken?(arr, index)
+  if (arr[index] == "X" || arr[index] == "O")
+    true
+  else
+    false
+  end
+end
