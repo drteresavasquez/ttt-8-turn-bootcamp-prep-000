@@ -5,3 +5,7 @@ def display_board(arr)
   puts "-"*11
   puts " #{arr[6]} | #{arr[7]} | #{arr[8]} "
 end
+
+def turn(board)
+  puts "Please enter 1-9:"
+end
