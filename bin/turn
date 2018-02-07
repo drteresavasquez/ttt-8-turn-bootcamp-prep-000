@@ -9,5 +9,5 @@ display_board(board)
 turn(board)
 input = gets.chomp
 index = input_to_index(input)
-move()
+move(board, 4, "X")
 
