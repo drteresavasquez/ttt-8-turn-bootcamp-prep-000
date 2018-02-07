@@ -18,7 +18,6 @@ def input_to_index(num)
 end
 
 def move(arr, index, value="X")
-  valid_move?(arr, index)
   arr[index] = value
 end
 
