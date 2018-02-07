@@ -1,3 +1,3 @@
-def DISPLAY_BOARD(arr)
+def display_board(arr)
   
 end
