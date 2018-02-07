@@ -18,6 +18,14 @@ def move(arr, index, value="X")
   arr[index] = value
 end
 
+def valid_move?(arr, index)
+  if ((position_taken?(arr, index) && index.between?(0,8)) || (index.between?(0,8) == false))
+    false
+  else
+    true
+  end
+end
+
 def position_taken?(arr, index)
   if (arr[index] == "X" || arr[index] == "O")
     true
